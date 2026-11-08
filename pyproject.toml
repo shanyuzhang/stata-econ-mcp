@@ -3,6 +3,7 @@ name = "stata-econ-mcp"
 version = "0.1.0"
 description = "Local MCP server that drives the user's own Stata (via official pystata) for applied econometrics"
 requires-python = ">=3.11"
+license = "MIT"
 dependencies = ["mcp>=1.9,<2", "numpy", "pandas"]
 
 [project.scripts]
